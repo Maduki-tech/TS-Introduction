@@ -30,6 +30,5 @@ function overloadFunctionInTypeScript(parameter: any): any {
 function callOverloadedFunctionInTypeScript() {
   overloadFunctionInTypeScript("string parameter");
   overloadFunctionInTypeScript(1);
-  overloadFunctionInTypeScript(true);
 }
 
